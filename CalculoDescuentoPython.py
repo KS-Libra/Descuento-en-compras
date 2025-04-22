@@ -22,7 +22,7 @@ print(f"Descuento aplicado (10%): ${descuento:.2f}")
 print(f"Monto final a pagar: ${monto_final:.2f}")
 
 # Llamada a la función con el monto total de la compra y el porcentaje de descuento
-monto_total = 2000
+monto_total = 4500
 porcentaje_descuento = 15
 descuento = calcular_descuento(monto_total, porcentaje_descuento)
 monto_final = monto_total - descuento
